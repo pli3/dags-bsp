@@ -276,9 +276,6 @@ DEFAULTTUNE = "mips32el"
 GLIBC_EXTRA_OECONF = "--with-tls"
 DVBMEDIASINK_CONFIG = "--with-dags --with-pcm --with-eac3 --with-amr --with-wmv"
 
-PREFERRED_VERSION_linux-dags = "4.2.1"
-PREFERRED_VERSION_linux-libc-headers = "4.2.1"
-
 PREFERRED_PROVIDER_virtual/kernel = "linux-dags"
 PREFERRED_PROVIDER_virtual/blindscan-dvbs = "vuplus-blindscan-utils"
 PREFERRED_PROVIDER_virtual/blindscan-dvbc = "vuplus-blindscan-utils"
