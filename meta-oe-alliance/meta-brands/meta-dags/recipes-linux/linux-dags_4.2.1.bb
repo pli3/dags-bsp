@@ -15,7 +15,7 @@ SRC_URI += "http://en3homeftp.net/pub/src/dags-linux-${PV}-${SRCDATE}.tar.gz \
     file://defconfig \
     "
 
-S = "${WORKDIR}/linux-${KV}"
+S = "${WORKDIR}/linux-${PV}"
 B = "${WORKDIR}/build"
 
 export OS = "Linux"
